@@ -1,0 +1,11 @@
+#TituloDeCentro {
+    margin-left: 30%;
+}
+.botão {
+    width: 30%;
+    height: 50%;
+}
+.botão:hover {
+    width: 40%;
+    height: 80%;
+}
