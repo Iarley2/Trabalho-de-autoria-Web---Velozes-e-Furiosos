@@ -1,0 +1,31 @@
+#TituloDeCentro {
+    margin-left: 27%;
+}
+.botão {
+    width: 30%;
+    height: 50%;
+    margin-top: 5%;
+}
+.botão:hover {
+    border: 5px solid black;
+    border-radius: 30%;
+    border-left-width: 30px;
+    background-color: bisque;
+}
+body {
+     background-color: tomato;
+}
+hr {
+    color: bisque;
+    height: 40px;
+    background-color: bisque;
+}
+.textoprincipal {
+    font-family: monospace;
+    font-size: 15px;
+    justify-content: center;
+}
+.textoprincipal:hover {
+    font-size: 25px;
+    background-color: bisque;
+}
