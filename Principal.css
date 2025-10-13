@@ -8,7 +8,6 @@
 .botão:hover {
     border: 5px solid black;
     border-radius: 30%;
-    border-left-width: 30px;
     background-color: rgb(5, 86, 152);
 }
 body {
@@ -22,11 +21,10 @@ hr {
 .textoprincipal {
     font-family: monospace;
     font-size: 15px;
-    justify-content: center;
 }
 .textoprincipal:hover {
     font-size: 25px;
-    background-color: rgb(5, 86, 152);
+    background-color: rgb(172, 207, 235);
     
 }
 p {
