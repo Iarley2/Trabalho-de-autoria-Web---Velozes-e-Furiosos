@@ -7,22 +7,29 @@
     border: 5px solid black;
     border-radius: 30%;
     border-left-width: 30px;
-    background-color: bisque;
+    background-color: rgb(5, 86, 152);
 }
 body {
      background-color: rgb(4, 0, 35);
 }
-hr {
-    color: bisque;
-    height: 40px;
-    background-color: bisque;
+div {
+    background-color: rgb(5, 86, 152);
 }
-.textoprincipal {
+.cartões {
+    margin-left: 19%;
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.Cards {
+    width: 27%;
+    height: 30%;
+}
+.TextosdeCard {
     font-family: monospace;
-    font-size: 15px;
-    justify-content: center;
+    font-size: 50px;;
 }
-.textoprincipal:hover {
-    font-size: 25px;
-    background-color: bisque;
+.Cards:hover {
+    width: 60%;
+    border: 20px double black;
 }
