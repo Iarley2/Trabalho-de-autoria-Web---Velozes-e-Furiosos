@@ -1,29 +1,17 @@
-
 .botão {
     width: 30%;
     height: 50%;
     margin-top: 5%;
 }
 .botão:hover {
-    border: 5px solid #000000;
+    border: 5px solid black;
     border-radius: 30%;
-    border-left-width: 30px;
-    background-color: bisque;
+    background-color: rgb(5, 86, 152);
 }
 body {
-     background-color: tomato;
+     background-color: rgb(4, 0, 35);
 }
-hr {
-    color: bisque;
-    height: 40px;
-    background-color: bisque;
-}
-.textoprincipal {
-    font-family: monospace;
-    font-size: 15px;
-    justify-content: center;
-}
-.textoprincipal:hover {
-    font-size: 25px;
-    background-color: bisque;
+div {
+    background-color: rgb(5, 86, 152);
+    text-align: center;
 }

@@ -14,6 +14,7 @@ body {
 }
 div {
     background-color: rgb(5, 86, 152);
+    text-align: center;
 }
 .cartões {
     margin-left: 19%;
