@@ -2,6 +2,7 @@
     width: 20%;
     height: 35%;
     margin-top: 5%;
+    margin-right: 5%;
 }
 .botão:hover {
     border: 5px solid black;
@@ -11,7 +12,37 @@
 body {
      background-color: rgb(4, 0, 35);
 }
-div {
+div.Base {
     background-color: rgb(5, 86, 152);
     text-align: center;
+}
+hr {
+    height: 20px;
+    border: 0px;
+}
+.TextodoTrajeto {
+    font-size: 50px;
+    color: rgb(5, 86, 152);
+    font-family: monospace;
+}
+img.Estrada {
+    margin-bottom: -1%;
+    width: 30%;
+}
+div.Estrada {
+    background-color: rgb(5, 86, 152);
+}
+.TextoDentrodoTrajeto {
+    float: right;
+    margin-right: -1%;
+    font-size: 50px;
+    font-family: monospace;
+    background-color: rgb(4, 0, 35);
+    color: rgb(5, 86, 152);
+}
+a{
+    color: red;
+}
+a:visited {
+    color: green;
 }
