@@ -1,16 +1,15 @@
-.botão {
-    width: 20%;
-    height: 35%;
-    margin-top: 5%;
-    margin-left: 5%;
+.Botões {
+    display: flex;
+    justify-content: space-around;
 }
 .botão:hover {
     border: 5px solid black;
     border-radius: 30%;
     background-color: rgb(5, 86, 152);
 }
-.Botões {
-    text-align: center;
+.Cards {
+    width: 40%;
+    height: 30%;
 }
 body {
      background-color: rgb(4, 0, 35);
@@ -21,10 +20,8 @@ div {
 .cartões {
     width: 60%;
     margin-bottom: 20px;
-}
-.Cards {
-    width: 27%;
-    height: 30%;
+    display: flex;
+    justify-content: center;
 }
 .TextosdeCard {
     font-family: monospace;
