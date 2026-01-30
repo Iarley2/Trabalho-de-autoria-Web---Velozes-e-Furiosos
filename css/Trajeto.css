@@ -1,6 +1,6 @@
 .botão {
-    width: 20%;
-    height: 35%;
+    width: 90%;
+    height: 80%;
     margin-top: 5%;
     margin-right: 5%;
 }
@@ -14,7 +14,8 @@ body {
 }
 div.Base {
     background-color: rgb(5, 86, 152);
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 hr {
     height: 20px;
