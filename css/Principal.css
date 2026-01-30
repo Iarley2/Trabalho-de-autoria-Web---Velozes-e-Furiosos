@@ -1,25 +1,26 @@
 #TituloDeCentro {
-    margin-left: 18%;
-    margin-bottom: -8%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -15%;
 }
 #Título {
     width: 80%;
+    display: flex;
+    justify-content: center;
 }
 .Botões {
     text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 .botão {
-    width: 20%;
-    height: 35%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 90%;
+    height: 80%;
  }
 .botão:hover {
     border: 5px solid black;
     border-radius: 30%;
     background-color: rgb(5, 86, 152);
-    width: 25%;
-    height: 45%;
 }
 body {
      background-color: rgb(4, 0, 35);
